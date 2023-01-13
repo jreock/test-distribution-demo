@@ -26,9 +26,9 @@ tasks.test {
         events ("SKIPPED")
         displayGranularity = 1
     }
-     predictiveSelection {
-         enabled.set(true)
-     }
+    //  predictiveSelection {
+    //      enabled.set(true)
+    //  }
     distribution {
         maxLocalExecutors.set(0)
         enabled.set(true)

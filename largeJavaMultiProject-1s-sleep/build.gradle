@@ -1,0 +1,25 @@
+buildscript {
+  repositories {
+    mavenLocal()
+  }
+  dependencies {
+    classpath 'com.gradle:gradle-enterprise-gradle-plugin:0.0.1'
+  }
+}
+
+allprojects {
+  apply plugin: 'com.gradle.enterprise'
+  plugins.withId('java') {
+    dependencies {
+      testImplementation 'org.junit.vintage:junit-vintage-engine:5.4.2'
+    }
+
+    test {
+        distributedTest {
+          jenkins {
+            url = uri("https://jenkins.grdev.net")
+          }
+        }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project29" />
+        <module name="project33" />
+        <module name="project32" />
+        <module name="project35" />
+        <module name="project34" />
+        <module name="project37" />
+        <module name="project36" />
+        <module name="quick-demo" />
+        <module name="project39" />
+        <module name="project38" />
+        <module name="project31" />
+        <module name="project30" />
+        <module name="project19" />
+        <module name="project18" />
+        <module name="project22" />
+        <module name="project21" />
+        <module name="project24" />
+        <module name="project23" />
+        <module name="project26" />
+        <module name="project25" />
+        <module name="project28" />
+        <module name="project27" />
+        <module name="project9" />
+        <module name="project20" />
+        <module name="project2" />
+        <module name="project1" />
+        <module name="project4" />
+        <module name="project3" />
+        <module name="project6" />
+        <module name="project5" />
+        <module name="project8" />
+        <module name="project7" />
+        <module name="project0" />
+        <module name="project11" />
+        <module name="project10" />
+        <module name="project13" />
+        <module name="project12" />
+        <module name="project15" />
+        <module name="project14" />
+        <module name="project17" />
+        <module name="project16" />
+        <module name="project44" />
+        <module name="project43" />
+        <module name="project46" />
+        <module name="project45" />
+        <module name="project48" />
+        <module name="project47" />
+        <module name="project49" />
+        <module name="project40" />
+        <module name="project42" />
+        <module name="project41" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
